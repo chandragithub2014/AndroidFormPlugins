@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="list.listtemplates.simplelistTypes.SimpleListType1Fragment">
+
+   <android.support.v7.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/simpletype1recyclerview">
+
+   </android.support.v7.widget.RecyclerView>
+   <android.support.design.widget.FloatingActionButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/add_item"
+       android:layout_gravity="bottom|end"
+       android:layout_margin="5dp"
+       app:itemIconTint="#FF4081"
+       android:tint="#000000"
+	   android:visibility="gone"
+       android:src="@android:drawable/ic_input_add"/>
+
+</FrameLayout>
