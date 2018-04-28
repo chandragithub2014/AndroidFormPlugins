@@ -1,0 +1,18 @@
+The basic idea of this app is to help mobile developer to speed up application development.
+This app show cases list of most commonly used user interface templates so that developer can integrate these template plugins and make some customization as per their requirement rather than developing from scratch.
+Steps to use this app:
+Step1:
+Launch the app in the mobile to check if there are any templates that match your use case
+Step2:
+If some templates match your requirements click on the over flow menu and click on get source option that allows to mail the git hub path of the selected template from the template list.Extract the plugin from Zip to proceed to next step
+
+Step3:
+Copy the matched template folder into "Activities"folder located under 
+%Android_Studio_Path%\plugins\android\lib\templates.
+
+Step4:
+Create a new application using Android studio
+Step5:
+Once app is created we should be able to select the required templates that copied in the above step
+Step5:
+Implement "Intent" code to provide navigation between the templates generated
